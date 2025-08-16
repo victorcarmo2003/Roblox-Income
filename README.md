@@ -32,6 +32,16 @@ Veja como a estimativa aparece ao lado do título do jogo:
 
 ---
 
+## 💻 Como instalar
+
+1. Extraia o arquivo principal
+2. Acesse a pasta após extraida
+3. Segure e arraste a pasta "Roblox-Income-main" para a aba de extensões do seu navegador
+
+   OBS: É NECESSÁRIO HABILITAR O 'MODO DESENVOLVEDOR'
+
+---
+
 ## 🚀 Como usar
 
 1. Instale a extensão no seu navegador (Chrome/Edge/Opera)  
