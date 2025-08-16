@@ -94,11 +94,12 @@ function insertEstimateDetail(titleContainer, players) {
 
   wrapper.appendChild(icon);
   wrapper.appendChild(text);
-
-  // colocar no fim do titleContainer (fica ao lado do creator etc)
-  // Se preferir em outra posição, troque appendChild por insertBefore.
-  titleContainer.appendChild(wrapper);
-}
+  const cardName = titleContainer.parentElement.querySelector(".game-card-name");
+    if (cardName) {
+      cardName.style.paddingBottom = "50px";
+    }
+    titleContainer.appendChild(wrapper);
+  }
 
 // === SCAN ÚNICO (procura em todos os lugares relevantes) ===
 function runScan() {
