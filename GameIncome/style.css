@@ -1,0 +1,45 @@
+/* estilo para o badge camuflado nos cards (usa classes do roblox) */
+.income-estimate {
+  margin-top: 6px;
+  padding: 4px 8px;
+  border-radius: 8px;
+  color: #FFFFFF !important;
+  font-size: 12px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  background: linear-gradient(90deg, #22c55e, #16a34a) !important;
+  z-index: 800 !important;
+  isolation: isolate;
+}
+
+/* estilo para a versão na página de detalhe (quadrado verde com gradiente) */
+.income-estimate-detail {
+  margin-top: 8px;
+  margin-left: 12px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #22c55e, #16a34a);
+  color: white;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(8, 30, 12, 0.12);
+}
+
+/* texto menor dentro do detail (se quiser ajustar) */
+.income-estimate-detail .income-estimate-detail-text {
+  font-size: 13px;
+  line-height: 1;
+}
+
+/* força de estilo para evitar heranças bizarras */
+/* .income-estimate, .income-estimate-detail {
+  all: unset;
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 10px;
+  border-radius: 10px;
+  color: white !important;
+  font-family: inherit;
+} */
